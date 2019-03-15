@@ -342,14 +342,18 @@ body{
     padding:15px;
 }
 .product-quick-view-title{
-    display: none;
     text-align: center;
     font-size: 16px; 
-}
-.product-component-wrapper:hover .product-quick-view-title{
-    display: block;
+    opacity: 0;
+    visibility: hidden;
+    
     transform: translateY(-20px);
-    transition: transform  2.5s
+    transition: .4s linear;
+    /* // elements malavs. aqrobs ra. mara domshi rcheba mainc zomebit. none-dan block-ze ro gadaewyo mand transition ar imushavebs aaa vaa eg ar vicodi :D an saidan mecodineboda da visibility ragat ginda? brauzerebis temashi zogze sheidzleba opacitym wauylevos da ase azgvev ra vaa spasiba :d :D :D :D dzaan kai :d davai aba momwere tu rame */
+}
+.product-component-wrapper:hover .product-quick-view-title {
+    opacity: 1;
+    visibility: visible;
 }
 .product-title-price-wrapper{
     display: flex;
