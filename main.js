@@ -42,4 +42,10 @@ $(document).ready(function(){
         console.log("samdkasmd")
     })
 })
+
+$(document).ready(function(){
+    $(".product-component").hover(function(){
+        $(".product-quick-view-title-hide").toggleClass("product-quick-view-title-visible",100);
+    })
+})
        
