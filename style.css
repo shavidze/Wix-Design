@@ -315,8 +315,8 @@ body{
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-left: 80px;
+    width: 94%;
+    margin-left: 100px;
 }
 
 
@@ -341,21 +341,15 @@ body{
     font-size:14px;
     padding:15px;
 }
-.product-quick-view-title-hide{
+.product-quick-view-title{
     display: none;
     text-align: center;
-    font-size: 16px;
-    left:40%;   
-    bottom: -10px;
-    position: absolute;
+    font-size: 16px; 
 }
-.product-quick-view-title-visible{
+.product-component-wrapper:hover .product-quick-view-title{
     display: block;
-    text-align: center;
-    font-size: 16px;
-    left:40%;   
-    bottom: 15px;
-    position: absolute;
+    transform: translateY(-20px);
+    transition: transform  2.5s
 }
 .product-title-price-wrapper{
     display: flex;

@@ -20,13 +20,13 @@ $(document).ready(function(){
             $(".chat-header-primary").css({
             "flex":"0.8",
             "transition":"flex 0.8s"
-        });
-        $(".chat-welcome-secondary").css({"display":"block","transition":"0.8s"});
-        $(".chat-welcome-primary").css({
-            "margin-left":"117px",
-            "font-size":"20px",
-            "transition":"margin-left 0.8s"
-        }); 
+            });
+            $(".chat-welcome-secondary").css({"display":"block","transition":"0.8s"});
+            $(".chat-welcome-primary").css({
+                "margin-left":"117px",
+                "font-size":"20px",
+                "transition":"margin-left 0.8s"
+            });
         }
     })
 })
@@ -38,14 +38,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".messenger-icon").click(function(){
-        $(".live-chat-form").css("display","block");
-        console.log("samdkasmd")
+        $(".live-chat-form").css({"display":"block"});
     })
 })
 
-$(document).ready(function(){
-    $(".product-component").hover(function(){
-        $(".product-quick-view-title-hide").toggleClass("product-quick-view-title-visible",100);
-    })
-})
-       
+ 
