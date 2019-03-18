@@ -361,3 +361,18 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.chat-header-primary.clicked {
+    flex:0.17;
+    transition: flex .8s;
+  }
+  
+  .chat-header-primary.clicked .chat-welcome-secondary{
+    display: none;
+  }
+  
+  .chat-header-primary.clicked .chat-welcome-primary{
+    margin-left: 10px;
+    font-size: 18px;
+    transition: margin-left .8s;
+}
