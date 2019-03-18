@@ -139,12 +139,12 @@ body{
     padding-left: 14%;
 }
 
-.container section.content .button-shop-now{
+.container section.content .button-black{
     padding-top: 40px;
     padding-left: 14%;
 }
 
-.container section.content .button-shop-now button{
+.container section.content .button-black button{
     border: 0;
     background-color: #2B2C48;
     color: #FFF9F4;
@@ -154,17 +154,17 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
-.container section.content .button-shop-now .button-shop-container{
+.container section.content .button-black .button-shop-container{
     display: inline-block;
 }
 
-.container section.content .button-shop-now button:hover{
+.container section.content .button-black button:hover{
     background-color: #FFF9F4;
     color: #2B2C48;
     transition : background-color 0.4s;
 }
 
-.container section.content .button-shop-now button:not(active){
+.container section.content .button-black button:not(active){
     background-color: #2B2C48;
     color: #FFF9F4;
     transition : background-color 0.3s;
@@ -317,8 +317,10 @@ body{
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    width: 94%;
-    margin-left: 100px;
+    width: 100%;
+    margin: auto;
+
+
 }
 
 
@@ -375,4 +377,57 @@ body{
     margin-left: 10px;
     font-size: 18px;
     transition: margin-left .8s;
+}
+
+.button-white{
+   margin-top: 40px;
+   display: block;
+}
+
+.button-white .button-container{
+    text-align: center;
+}
+
+.button-white button{
+    border: 1px solid #2B2C48;
+    background-color: #FFF9F4;
+    color: #2B2C48;
+    line-height: 32px;
+    min-width: 120px;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+
+.button-white button:hover{
+    background-color:#2B2C48;
+    color:#FFF9F4;
+    transition : background-color ease 0.8s;
+}
+
+
+.billboard{
+    display: block;
+    background-image: url(product-cover.png);
+    background-size: cover;
+    background-position: top;
+    margin-top: 50px;
+    width: 88%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback-title{
+    display: block;
+    font: bold;
+    text-align: center;
+    color: #302F51;
+    font-size:30px
+}
+.title-component-wrapper p{
+    font-size: 20px;
+    color: #302F51;
+    display: block;
+    text-align: center;
+
 }
