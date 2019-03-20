@@ -448,11 +448,13 @@ body{
     border-top: 1px solid black;
 }
 
-.footer-menu nav
+.footer-menu ul
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .footer-menu nav{
@@ -483,6 +485,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 .footer-info .info-title{
@@ -514,3 +517,4 @@ body{
     list-style-type: none;
     margin-right: 32px;
 }
+
