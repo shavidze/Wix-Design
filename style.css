@@ -298,8 +298,7 @@ body{
     margin: 10px 0 0 57px;
 }
 .title-component-wrapper {
-  margin:0px 0px 0px 70px;
- 
+    margin: 70px 0px 70px 0;
 }
 .title-component-wrapper .product-title{
     font-size: 30px;
