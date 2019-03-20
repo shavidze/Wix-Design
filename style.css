@@ -16,6 +16,7 @@ body{
 }
 
 .container{
+
     background-color: #FFF9F4;
     height: 100vh;
     width:144.6rem;
@@ -526,15 +527,33 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 30px 50px;
 }
-.community .join{
+.community h5{
     text-align: center;
     font-size: 2rem;
     color:#2B2C48;
 }
 
 .mail input{
-    padding: .5rem 12.5rem;
+    padding: 1.5rem 30rem;
     border: .1rem solid #2B2C48;
     outline: none;
+}
+
+.community .join{
+    border: 0;
+    background-color: #2B2C48;
+    color: #FFF9F4;
+    line-height: 3.2rem;
+    padding: 1.5rem 30rem;
+    margin: 1rem 0 0 0;
+    cursor: pointer;
+}
+
+.community .join:hover {
+    background-color: #FFF9F4;
+    columns: #2B2C48;
+    transition: background-color .8s;
 }
