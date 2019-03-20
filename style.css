@@ -32,6 +32,11 @@ body{
     align-items: center;
     width:100%;
     margin:auto;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    background-color: #FFF8F3;
+    clip-path:polygon(6.2% 103%, 0% 75%,0% 0%, 100% 0%, 100% 75%, 12.4% 75%)
 }
 
 .main-nav {
@@ -544,6 +549,7 @@ body{
     border: .1rem solid #2B2C48;
     outline: none;
 }
+
 
 .mail input:hover{
     background:#B7B6CC;
