@@ -137,13 +137,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-top: 7%;
-    padding-left: 14%;
+    padding: 98px 0px 0 190px;
 }
 
 .container section.content .button-black{
-    padding-top: 40px;
-    padding-left: 14%;
+    margin: 43px 0px 0px 190px
 }
 
 .container section.content .button-black button{
