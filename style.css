@@ -440,6 +440,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-top: 1px solid;
 }
 .footer .navigation{
     display: flex;
@@ -450,7 +451,6 @@ body{
     margin: auto;
     padding: 3rem 0 3rem 0;
     box-sizing: border-box;
-    border-top: .1rem solid black;
 }
 
 .footer-menu ul
@@ -528,12 +528,15 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 50px;
+    border-top: 1px solid #2B2C48;
+    padding: 12rem 5rem 2rem 5rem;
+    margin:3rem 0 0 0 ;
 }
 .community h5{
     text-align: center;
     font-size: 2rem;
-    color:#2B2C48;
+    color:#2B2C48;   
+    margin: 0 0 4rem 0;
 }
 
 .mail input{
@@ -542,18 +545,31 @@ body{
     outline: none;
 }
 
+.mail input:hover{
+    background:#B7B6CC;
+}
+.mail input:focus{
+    background: #FEFEFE;
+}
+
 .community .join{
     border: 0;
     background-color: #2B2C48;
     color: #FFF9F4;
     line-height: 3.2rem;
-    padding: 1.5rem 30rem;
+    padding: 1rem 37rem;
+    outline: none;
     margin: 1rem 0 0 0;
     cursor: pointer;
 }
 
 .community .join:hover {
     background-color: #FFF9F4;
-    columns: #2B2C48;
+    color: #2B2C48;
     transition: background-color .8s;
+}
+
+.community span{
+    margin:7rem 0 0 0;
+    font-size: 1.6rem;
 }
