@@ -155,7 +155,6 @@ header#header-fixed{
     min-width: 0.75rem;
     padding: 0.25rem 2.0625rem;
     margin: 0.0625rem 0 0 0;
-    cursor: pointer;
 }
 .container section.content .button-black .button-shop-container{
     display: inline-block;
@@ -393,7 +392,6 @@ header#header-fixed{
     line-height: 0.1875rem;
     min-width: 7.5rem;
     padding: 0.625rem 2.5rem;
-    cursor: pointer;
 }
 
 .button-white button:hover{
@@ -410,7 +408,7 @@ header#header-fixed{
     background-position: top;
     margin: 3.125rem auto 0 auto;
     width: 100%;
-    height: 50vh;
+    height: 31.25rem;
 }
 
 .feedback-title{
@@ -434,7 +432,7 @@ header#header-fixed{
     background-position: top;
     margin: 3.125rem auto 3.125rem auto;
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
 }
 .footer {
     display: flex;
@@ -446,7 +444,7 @@ header#header-fixed{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 30vh;
+    height: 18.75rem;
     width: 100%;
     margin: auto;
     padding: 1.875rem 0 1.875rem 0;
