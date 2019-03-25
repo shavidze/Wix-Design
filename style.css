@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 62.5%; /*1rem=10px*/
+    font-size: 16px; /*1rem=1.6px*/
 }
 body{
     font-family:monospace;
@@ -19,11 +19,10 @@ body{
 
     background-color: #FFF9F4;
     height: 100vh;
-    width:144.6rem;
+    width:1446px;
     max-width: 100%;
     margin:auto;
-    background-size:cover;
-    background-position: center; 
+    background-size:cover; 
 }
 
 .row{
@@ -44,12 +43,12 @@ body{
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    padding: 5rem 0 4.5rem 0;
+    padding: 50px 0 45px 0;
 }
 
 .main-nav li {
     display: inline-block;
-    padding:0 2.5rem;
+    padding:0 25px;
     box-sizing: border-box;
 }
 
@@ -57,18 +56,18 @@ body{
     display: inline-block;
     color:#767592;
     text-decoration: none;
-    padding: .5rem 2.5rem;
+    padding: 10px 25px;
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 15px;
     box-sizing: border-box;
 }
 .main-nav li.active a {
     color:  #C8C6D5;
 }
 .main-nav .logo-basket{
-    width:2.6rem;
-    height: 3.1rem;
-    margin:0 0 .5rem 0;
+    width:26px;
+    height: 31px;
+    margin:0 0 5px 0;
     position: relative;
     border: none;
     background: #FEFEFE;
@@ -86,7 +85,7 @@ body{
      color:  #C8C6D5;
 }
 .logo {
-    transform: translateY(.4rem);
+    transform: translateY(4px);
 }
 
 .hero{
@@ -104,15 +103,15 @@ body{
 
 .row .logo .logo-text .logo-text-big{
     display: block;
-    font-size: 2.6rem;
+    font-size: 16px;
     white-space: nowrap;
-    letter-spacing: -0.2rem;
+    letter-spacing: -0.2px;
 }
 
 .row .logo .logo-text .logo-text-small{
     display: block;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 16px;
 }
 
 .row .logo .logo-container{
@@ -123,8 +122,8 @@ body{
     background-image: url(pexels-photo-842711.jpeg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 2.5rem 0, 9rem 1.9rem, 16.5rem 0, 100% 0, 100% 100%,0 100%);
-    margin: -1rem auto 0 auto;
+    clip-path: polygon(0 0, 25px 0, 90px 19px, 165px 0, 100% 0, 100% 100%,0 100%);
+    margin: -1px auto 0 auto;
     width: 100%;
     height: 70vh;
 }
@@ -132,7 +131,7 @@ body{
 .container section.content h1{
     color:white;
     text-transform: uppercase;
-    font-size: 7rem;
+    font-size: 7px;
     text-align: start;
     line-height:1.1em;
     
@@ -143,21 +142,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding: 9.8rem 0 0 19rem;
+    padding: 98px 0 0 19px;
 }
 
 .container section.content .button-black{
-    margin: 4.3rem 0 0 19rem
+    margin: 43px 0 0 190px
 }
 
 .container section.content .button-black button{
     border: 0;
     background-color: #2B2C48;
     color: #FFF9F4;
-    line-height: 3.2rem;
-    min-width: 12rem;
-    padding: .4rem 3.3rem;
-    margin: 1rem 0 0 0;
+    line-height: 32px;
+    min-width: 12px;
+    padding: 4px 33px;
+    margin: 1px 0 0 0;
     cursor: pointer;
 }
 .container section.content .button-black .button-shop-container{
@@ -186,22 +185,22 @@ body{
     display: block;
 }
 .aside-social-networks li.social-network__icon:not(:last-child){
-    margin:0 0  2.5rem 0;
+    margin:0 0  25px 0;
 }
 
 .aside-social-networks .live-chat-icon{
     position: fixed;
     bottom: 10%;
-    right: 5rem;
+    right: 5px;
 
 }
 .aside-social-networks a.rounded-wrapper{
     display: block;
     background-color: rgb(48, 47, 81);
     color: rgb(255, 255, 255);
-    width: 7rem;
-    height: 6rem;
-    border-radius: 20rem;
+    width: 70px;
+    height: 60px;
+    border-radius: 20px;
     position: relative;
 }
 .live-chat-icon .messenger-icon{
@@ -214,11 +213,11 @@ body{
 
 .live-chat-form{
     display: none;
-    width: 34rem;
-    height: 54rem;
+    width: 34px;
+    height: 54px;
     position: fixed;
     bottom: 0%;
-    right: 5rem;
+    right: 5px;
 }
 
 .live-chat-form-flew-wrapper{
@@ -254,10 +253,10 @@ body{
 }
 .chat-header .chat-close{
     position: absolute;
-    top: 1.5rem;
-    right: 1.8rem;
-    width: 3rem;
-    height: 3rem;
+    top: 15px;
+    right: 18px;
+    width: 30px;
+    height: 30px;
     color: white;
     background-color: transparent;
     border-color: transparent;
@@ -285,29 +284,29 @@ body{
     align-self: center;
 }
 .chat-welcome-wrapper .chat-welcome-primary{
-    font-size: 2rem;
+    font-size: 2px;
     line-height: 1.3;
-    margin: 0 0 0 11.7rem;
+    margin: 0 0 0 117px;
     padding-top: 0;
-    max-width: 23.5rem;
+    max-width: 235px;
     text-align: center;
 }
 .chat-welcome-secondary{
-    font-size: 1.5rem;
-    max-width: 23rem;
+    font-size: 15px;
+    max-width: 230px;
     line-height: 1.3;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-    max-height: 8rem;
+    max-height: 8px;
     overflow: hidden;
     display: block;
-    margin: 1rem 0 0 5.7rem;
+    margin: 10px 0 0 57px;
 }
 .title-component-wrapper {
-    margin: 7rem 0 7rem 0;
+    margin: 70px 0 70px 0;
 }
 .title-component-wrapper .product-title{
-    font-size: 3rem;
+    font-size: 3px;
     color: #2B2C48;
     text-align:center;
 }
@@ -318,7 +317,7 @@ body{
     cursor: pointer;
 }
 .products-wrapper{
-    margin: 7rem auto 0 auto;
+    margin: 70px auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -331,8 +330,8 @@ body{
     position: relative;
 }
 .products-component-wrapper .products-component img{
-    width:43rem;
-    height:44rem;
+    width:430px;
+    height:440px;
     max-width: 100%;
     max-height: 100%;
 }
@@ -340,21 +339,21 @@ body{
 .product-component-title {
     display: block;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.6px;
 }
 .product-component-price{
     display: inline;
     text-align: center;
-    font-size:1.4rem;
-    padding:1.5rem;
+    font-size:14px;
+    padding:15px;
 }
 .product-quick-view-title{
     text-align: center;
-    font-size: 1.6rem; 
+    font-size: 16px; 
     opacity: 0;
     visibility: hidden;
     
-    transform: translateY(-2rem);
+    transform: translateY(-2px);
     transition: .4s linear;
     /* // elements malavs. aqrobs ra. mara domshi rcheba mainc zomebit. none-dan block-ze ro gadaewyo mand transition ar imushavebs aaa vaa eg ar vicodi :D an saidan mecodineboda da visibility ragat ginda? brauzerebis temashi zogze sheidzleba opacitym wauylevos da ase azgvev ra vaa spasiba :d :D :D :D dzaan kai :d davai aba momwere tu rame */
 }
@@ -377,13 +376,13 @@ body{
   }
   
   .chat-header-primary.clicked .chat-welcome-primary{
-    margin:0 0 0 1rem;
-    font-size: 1.8rem;
+    margin:0 0 0 1px;
+    font-size: 18px;
     transition: margin-left .8s;
 }
 
 .button-white{
-   margin: 4rem 0 0 0;
+   margin: 40px 0 0 0;
    display: block;
 }
 
@@ -392,12 +391,12 @@ body{
 }
 
 .button-white button{
-    border: .1rem solid #2B2C48;
+    border: 1px solid #2B2C48;
     background-color: #FFF9F4;
     color: #2B2C48;
-    line-height: 3.rem;
-    min-width: 12rem;
-    padding: 1rem 4rem;
+    line-height: 3.px;
+    min-width: 120px;
+    padding: 10px 40px;
     cursor: pointer;
 }
 
@@ -413,7 +412,7 @@ body{
     background-image: url(pexels-photo-842711.jpeg);
     background-size: cover;
     background-position: top;
-    margin: 5rem auto 0 auto;
+    margin: 50px auto 0 auto;
     width: 100%;
     height: 50vh;
 }
@@ -423,10 +422,10 @@ body{
     font: bold;
     text-align: center;
     color: #302F51;
-    font-size:3rem;
+    font-size:3px;
 }
 .title-component-wrapper p{
-    font-size: 2rem;
+    font-size: 20px;
     color: #302F51;
     display: block;
     text-align: center;
@@ -437,7 +436,7 @@ body{
     background-image: url(pexels-photo-842711.jpeg);
     background-size: cover;
     background-position: top;
-    margin: 5rem auto 5rem auto;
+    margin: 50px auto 5px auto;
     width: 100%;
     height: 50vh;
 }
@@ -454,7 +453,7 @@ body{
     height: 30vh;
     width: 100%;
     margin: auto;
-    padding: 3rem 0 3rem 0;
+    padding: 30px 0 30px 0;
     box-sizing: border-box;
 }
 
@@ -475,9 +474,9 @@ body{
     display: inline-block;
     color:#2B2C48;
     text-decoration: none;
-    padding: .5rem 2.5rem;
+    padding: 5px 25px;
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 18px;
     font-weight: 700;
     box-sizing: border-box;
 }
@@ -499,19 +498,19 @@ body{
 }
 
 .footer-info .info-title{
-    font-size: 1.8rem;
+    font-size: 18px;
     font-weight: 700;
     color:#2B2C48;
-    padding: .5rem 0 .5rem 0;
-    margin-bottom: .5rem;
+    padding: 5px 0 5px 0;
+    margin-bottom: 5px;
 }
 
 .footer-info .info-link,a{
-    font-size:1.8rem;
+    font-size:18px;
     font-weight: 400;
     color:#69687A;
-    padding: .5rem 0 .5rem 0;
-    margin:.5rem 0 .5rem 0;
+    padding: 5px 0 5px 0;
+    margin:5px 0 5px 0;
     text-decoration: none;
 }
 
@@ -525,7 +524,7 @@ body{
 .footer-social-icons li.social-network__icon{
     
     list-style-type: none;
-    margin-right: 3.2rem;
+    margin-right: 32px;
 }
 
 .community {
@@ -534,19 +533,19 @@ body{
     align-items: center;
     flex-direction: column;
     border-top: 1px solid #2B2C48;
-    padding: 12rem 5rem 2rem 5rem;
-    margin:3rem 0 0 0 ;
+    padding: 120px 50px 20px 50px;
+    margin:3px 0 0 0 ;
 }
 .community h5{
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     color:#2B2C48;   
-    margin: 0 0 4rem 0;
+    margin: 0 0 4px 0;
 }
 
 .mail input{
-    padding: 1.5rem 30rem;
-    border: .1rem solid #2B2C48;
+    padding: 15px 300px;
+    border: 1px solid #2B2C48;
     outline: none;
 }
 
@@ -562,10 +561,10 @@ body{
     border: 0;
     background-color: #2B2C48;
     color: #FFF9F4;
-    line-height: 3.2rem;
-    padding: 1rem 37rem;
+    line-height: 32px;
+    padding: 10px 370px;
     outline: none;
-    margin: 1rem 0 0 0;
+    margin: 10px 0 0 0;
     cursor: pointer;
 }
 
@@ -576,6 +575,6 @@ body{
 }
 
 .community span{
-    margin:7rem 0 0 0;
-    font-size: 1.6rem;
+    margin:7px 0 0 0;
+    font-size: 16px;
 }
