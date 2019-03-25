@@ -9,15 +9,14 @@ html{
     font-size: 16px; /*1rem=1.6px*/
 }
 body{
-    font-family:monospace;
     font-size: 1rem;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     background-color: #FFF9F4;
 }
 
 .container{
-    max-width: 81.25rem;
-    width: 100%;
+    width: 81.25rem;
+    max-width: 100%;
     margin:auto;
 }
 
@@ -27,19 +26,19 @@ body{
 header#header-fixed{
     justify-content: space-between;
     align-items: center;
-    width:100%;
+    max-width:100%;
     margin:auto;
     position: sticky;
     top:0;
     z-index: 10;
     background-color: #FFF8F3;
-    clip-path: polygon(7.0% 100%, 0% 75%,0% 0%, 100% 0%, 100% 75%, 13.5% 75%);
+    clip-path: polygon(7% 98%, 0% 75%,0% 0%, 100% 0%, 100% 75%, 14.4% 75%);
 }
 
 #main-nav {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: baseline;
     list-style-type: none;
     padding: 3.125rem 0 2.8125rem 0;
 }
@@ -62,8 +61,13 @@ header#header-fixed{
 #main-nav li.active a {
     color:  #C8C6D5;
 }
-#main-nav .logo-basket{
+
+#logo-mobile.logo-basket{
+    display: none;
+}
+.logo-basket{
     width:1.625rem;
+    max-width: 100%;
     height: 1.9375rem;
     margin:0 0 0.3125rem 0;
     position: relative;
@@ -71,7 +75,7 @@ header#header-fixed{
     background: #FEFEFE;
 }
 
-#main-nav .logo-basket .logo-basket-number{
+.logo-basket .logo-basket-number{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -106,7 +110,7 @@ header#header-fixed{
     letter-spacing: -0.0125rem;
 }
 
-.row .logo .logo-text .logo-text-small{
+.logo-text-small{
     display: block;
     text-align: center;
     font-size: 1rem;
@@ -115,6 +119,9 @@ header#header-fixed{
 .row .logo .logo-container{
     position: relative;
 }
+.logo-container img{
+    max-width: 100%;;
+}
 
 .container section.content{
     background-image: url(pexels-photo-842711.jpeg);
@@ -122,7 +129,7 @@ header#header-fixed{
     background-position: top;
     clip-path: polygon(0 0, 1.5625rem 0, 5.625rem 1.1875rem, 10.3125rem 0, 100% 0, 100% 100%,0 100%);
     margin: -0.0625rem auto 0 auto;
-    width: 100%;
+    max-width: 100%;
     height:37.5rem;
 }
 
@@ -140,7 +147,7 @@ header#header-fixed{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding: 6.125rem 0 0 1.1875rem;
+    padding: 6.125rem 0 0 11.1875rem;
 }
 
 .container section.content .button-black{
@@ -443,7 +450,6 @@ header#header-fixed{
 .footer .navigation{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     height: 18.75rem;
     width: 100%;
     margin: auto;
@@ -540,6 +546,7 @@ header#header-fixed{
 .mail input{
     padding: 0.9375rem 18.75rem;
     border: 0.0625rem solid #2B2C48;
+    max-width: 100%;
     outline: none;
 }
 
@@ -559,6 +566,7 @@ header#header-fixed{
     padding: 0.625rem 23.125rem;
     outline: none;
     margin: 0.625rem 0 0 0;
+    max-width: 100%;
     cursor: pointer;
 }
 
@@ -571,4 +579,59 @@ header#header-fixed{
 .community span{
     margin:0.4375rem 0 0 0;
     font-size: 1rem;
+}
+.menu-toggle{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    html{
+        font-size: 0.5rem;
+    }
+    .aside-social-networks {
+        display: none;
+    }
+    .menu-toggle i{
+        font-size: 3.875rem;
+        color:#3F3A05;
+    }
+    .menu-toggle{
+        display: inline-block;
+        text-align: left;
+        font-size: 1.875rem;
+        box-sizing: border-box;
+        color: #FFFAF5;
+    }
+    #main-nav{
+        display: none;
+    }
+    header#header-fixed{
+        clip-path: none;
+    }
+    .container section.content{
+        clip-path: none;
+        margin:0;
+    }
+    .logo-text-big{
+        font-size: 1.25rem;
+    }
+    .logo-text-small{
+        font-size: 0.9375rem;
+    }
+    .container section.content .content-background-text{
+        padding:6.125rem 0 0 6.1875rem;
+    }
+    .container section.content .button-black {
+        margin: 2.6875rem 0 0 6.875rem;
+    }
+
+    .container section.content .button-black button{
+        padding: 1.25rem 2.0625rem;
+    }
+    #logo-mobile.logo-basket{
+        display: block;
+    }
+    #logo-desktop.logo-basket{
+        display: none;
+    }
 }
