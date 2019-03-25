@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 81.25rem;
     width: 100%;
     margin:auto;
 }
@@ -36,42 +36,42 @@ header#header-fixed{
     clip-path: polygon(7.0% 100%, 0% 75%,0% 0%, 100% 0%, 100% 75%, 13.5% 75%);
 }
 
-.main-nav {
+#main-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    padding: 50px 0 45px 0;
+    padding: 3.125rem 0 2.8125rem 0;
 }
 
-.main-nav li {
+#main-nav li {
     display: inline-block;
-    padding:0 25px;
+    padding:0 1.5625rem;
     box-sizing: border-box;
 }
 
-.main-nav li a {
+#main-nav li a {
     display: inline-block;
     color:#767592;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 0.625rem 1.5625rem;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     box-sizing: border-box;
 }
-.main-nav li.active a {
+#main-nav li.active a {
     color:  #C8C6D5;
 }
-.main-nav .logo-basket{
-    width:26px;
-    height: 31px;
-    margin:0 0 5px 0;
+#main-nav .logo-basket{
+    width:1.625rem;
+    height: 1.9375rem;
+    margin:0 0 0.3125rem 0;
     position: relative;
     border: none;
     background: #FEFEFE;
 }
 
-.main-nav .logo-basket .logo-basket-number{
+#main-nav .logo-basket .logo-basket-number{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -79,11 +79,11 @@ header#header-fixed{
     color:white;
 }
 
-.main-nav li a:hover{
+#main-nav li a:hover{
      color:  #C8C6D5;
 }
 .logo {
-    transform: translateY(4px);
+    transform: translateY(0.25rem);
 }
 
 .hero{
@@ -99,17 +99,17 @@ header#header-fixed{
     transform: translate(-50%,-50%);
 }
 
-.row .logo .logo-text .logo-text-big{
+.logo-text-big{
     display: block;
-    font-size: 16px;
+    font-size: 1rem;
     white-space: nowrap;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.0125rem;
 }
 
 .row .logo .logo-text .logo-text-small{
     display: block;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .row .logo .logo-container{
@@ -120,16 +120,16 @@ header#header-fixed{
     background-image: url(pexels-photo-842711.jpeg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 25px 0, 90px 19px, 165px 0, 100% 0, 100% 100%,0 100%);
-    margin: -1px auto 0 auto;
+    clip-path: polygon(0 0, 1.5625rem 0, 5.625rem 1.1875rem, 10.3125rem 0, 100% 0, 100% 100%,0 100%);
+    margin: -0.0625rem auto 0 auto;
     width: 100%;
-    height: 70vh;
+    height:37.5rem;
 }
 
 .container section.content h1{
     color:white;
     text-transform: uppercase;
-    font-size: 7px;
+    font-size: 4.375rem;
     text-align: start;
     line-height:1.1em;
     
@@ -140,21 +140,21 @@ header#header-fixed{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding: 98px 0 0 19px;
+    padding: 6.125rem 0 0 1.1875rem;
 }
 
 .container section.content .button-black{
-    margin: 43px 0 0 190px
+    margin: 2.6875rem 0 0 11.875rem;
 }
 
 .container section.content .button-black button{
     border: 0;
     background-color: #2B2C48;
     color: #FFF9F4;
-    line-height: 32px;
-    min-width: 12px;
-    padding: 4px 33px;
-    margin: 1px 0 0 0;
+    line-height: 2rem;
+    min-width: 0.75rem;
+    padding: 0.25rem 2.0625rem;
+    margin: 0.0625rem 0 0 0;
     cursor: pointer;
 }
 .container section.content .button-black .button-shop-container{
@@ -183,22 +183,22 @@ header#header-fixed{
     display: block;
 }
 .aside-social-networks li.social-network__icon:not(:last-child){
-    margin:0 0  25px 0;
+    margin:0 0  1.5625rem 0;
 }
 
 .aside-social-networks .live-chat-icon{
     position: fixed;
     bottom: 10%;
-    right: 5px;
+    right: 0.3125rem;
 
 }
 .aside-social-networks a.rounded-wrapper{
     display: block;
     background-color: rgb(48, 47, 81);
     color: rgb(255, 255, 255);
-    width: 70px;
-    height: 60px;
-    border-radius: 20px;
+    width: 4.375rem;
+    height: 3.75rem;
+    border-radius: 1.25rem;
     position: relative;
 }
 .live-chat-icon .messenger-icon{
@@ -211,11 +211,11 @@ header#header-fixed{
 
 .live-chat-form{
     display: none;
-    width: 34px;
-    height: 54px;
+    width: 2.125rem;
+    height: 3.375rem;
     position: fixed;
     bottom: 0%;
-    right: 5px;
+    right: 0.3125rem;
 }
 
 .live-chat-form-flew-wrapper{
@@ -251,10 +251,10 @@ header#header-fixed{
 }
 .chat-header .chat-close{
     position: absolute;
-    top: 15px;
-    right: 18px;
-    width: 30px;
-    height: 30px;
+    top: 0.9375rem;
+    right: 1.125rem;
+    width: 1.875rem;
+    height: 1.875rem;
     color: white;
     background-color: transparent;
     border-color: transparent;
@@ -282,29 +282,29 @@ header#header-fixed{
     align-self: center;
 }
 .chat-welcome-wrapper .chat-welcome-primary{
-    font-size: 2px;
+    font-size: 0.125rem;
     line-height: 1.3;
-    margin: 0 0 0 117px;
+    margin: 0 0 0 7.3125rem;
     padding-top: 0;
-    max-width: 235px;
+    max-width: 14.6875rem;
     text-align: center;
 }
 .chat-welcome-secondary{
-    font-size: 15px;
-    max-width: 230px;
+    font-size: 0.9375rem;
+    max-width: 14.375rem;
     line-height: 1.3;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-    max-height: 8px;
+    max-height: 0.5rem;
     overflow: hidden;
     display: block;
-    margin: 10px 0 0 57px;
+    margin: 0.625rem 0 0 3.5625rem;
 }
 .title-component-wrapper {
-    margin: 70px 0 70px 0;
+    margin: 4.375rem 0 4.375rem 0;
 }
 .title-component-wrapper .product-title{
-    font-size: 3px;
+    font-size: 1.875rem;
     color: #2B2C48;
     text-align:center;
 }
@@ -315,7 +315,7 @@ header#header-fixed{
     cursor: pointer;
 }
 .products-wrapper{
-    margin: 70px auto 0 auto;
+    margin: 4.375rem auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -328,8 +328,8 @@ header#header-fixed{
     position: relative;
 }
 .products-component-wrapper .products-component img{
-    width:430px;
-    height:440px;
+    width:26.875rem;
+    height:27.5rem;
     max-width: 100%;
     max-height: 100%;
 }
@@ -337,23 +337,21 @@ header#header-fixed{
 .product-component-title {
     display: block;
     text-align: center;
-    font-size: 1.6px;
+    font-size: 1rem;
 }
 .product-component-price{
     display: inline;
     text-align: center;
-    font-size:14px;
-    padding:15px;
+    font-size:0.875rem;
+    padding:0.9375rem;
 }
 .product-quick-view-title{
     text-align: center;
-    font-size: 16px; 
+    font-size: 1rem; 
     opacity: 0;
     visibility: hidden;
-    
-    transform: translateY(-2px);
+    transform: translateY(-1.25rem);
     transition: .4s linear;
-    /* // elements malavs. aqrobs ra. mara domshi rcheba mainc zomebit. none-dan block-ze ro gadaewyo mand transition ar imushavebs aaa vaa eg ar vicodi :D an saidan mecodineboda da visibility ragat ginda? brauzerebis temashi zogze sheidzleba opacitym wauylevos da ase azgvev ra vaa spasiba :d :D :D :D dzaan kai :d davai aba momwere tu rame */
 }
 .product-component-wrapper:hover .product-quick-view-title {
     opacity: 1;
@@ -374,13 +372,13 @@ header#header-fixed{
   }
   
   .chat-header-primary.clicked .chat-welcome-primary{
-    margin:0 0 0 1px;
-    font-size: 18px;
+    margin:0 0 0 0.0625rem;
+    font-size: 1.125rem;
     transition: margin-left .8s;
 }
 
 .button-white{
-   margin: 40px 0 0 0;
+   margin: 2.5rem 0 0 0;
    display: block;
 }
 
@@ -389,12 +387,12 @@ header#header-fixed{
 }
 
 .button-white button{
-    border: 1px solid #2B2C48;
+    border: 0.0625rem solid #2B2C48;
     background-color: #FFF9F4;
     color: #2B2C48;
-    line-height: 3.px;
-    min-width: 120px;
-    padding: 10px 40px;
+    line-height: 0.1875rem;
+    min-width: 7.5rem;
+    padding: 0.625rem 2.5rem;
     cursor: pointer;
 }
 
@@ -410,7 +408,7 @@ header#header-fixed{
     background-image: url(pexels-photo-842711.jpeg);
     background-size: cover;
     background-position: top;
-    margin: 50px auto 0 auto;
+    margin: 3.125rem auto 0 auto;
     width: 100%;
     height: 50vh;
 }
@@ -420,10 +418,10 @@ header#header-fixed{
     font: bold;
     text-align: center;
     color: #302F51;
-    font-size:3px;
+    font-size:1.875rem;
 }
 .title-component-wrapper p{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #302F51;
     display: block;
     text-align: center;
@@ -434,15 +432,15 @@ header#header-fixed{
     background-image: url(pexels-photo-842711.jpeg);
     background-size: cover;
     background-position: top;
-    margin: 50px auto 5px auto;
+    margin: 3.125rem auto 3.125rem auto;
     width: 100%;
-    height: 50vh;
+    height: 500px;
 }
 .footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-top: 1px solid;
+    border-top: 0.0625rem solid;
 }
 .footer .navigation{
     display: flex;
@@ -451,7 +449,7 @@ header#header-fixed{
     height: 30vh;
     width: 100%;
     margin: auto;
-    padding: 30px 0 30px 0;
+    padding: 1.875rem 0 1.875rem 0;
     box-sizing: border-box;
 }
 
@@ -472,9 +470,9 @@ header#header-fixed{
     display: inline-block;
     color:#2B2C48;
     text-decoration: none;
-    padding: 5px 25px;
+    padding: 0.3125rem 1.5625rem;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     box-sizing: border-box;
 }
@@ -496,19 +494,19 @@ header#header-fixed{
 }
 
 .footer-info .info-title{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     color:#2B2C48;
-    padding: 5px 0 5px 0;
-    margin-bottom: 5px;
+    padding: 0.3125rem 0 0.3125rem 0;
+    margin-bottom: 0.3125rem;
 }
 
 .footer-info .info-link,a{
-    font-size:18px;
+    font-size:1.125rem;
     font-weight: 400;
     color:#69687A;
-    padding: 5px 0 5px 0;
-    margin:5px 0 5px 0;
+    padding: 0.3125rem 0 0.3125rem 0;
+    margin:0.3125rem 0 0.3125rem 0;
     text-decoration: none;
 }
 
@@ -522,7 +520,7 @@ header#header-fixed{
 .footer-social-icons li.social-network__icon{
     
     list-style-type: none;
-    margin-right: 32px;
+    margin-right: 2rem;
 }
 
 .community {
@@ -530,20 +528,20 @@ header#header-fixed{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-top: 1px solid #2B2C48;
-    padding: 120px 50px 20px 50px;
-    margin:3px 0 0 0 ;
+    border-top: 0.0625rem solid #2B2C48;
+    padding: 7.5rem 3.125rem 1.25rem 3.125rem;
+    margin:2.1875rem 0 0 0 ;
 }
 .community h5{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     color:#2B2C48;   
-    margin: 0 0 4px 0;
+    margin: 0 0 0.25rem 0;
 }
 
 .mail input{
-    padding: 15px 300px;
-    border: 1px solid #2B2C48;
+    padding: 0.9375rem 18.75rem;
+    border: 0.0625rem solid #2B2C48;
     outline: none;
 }
 
@@ -559,10 +557,10 @@ header#header-fixed{
     border: 0;
     background-color: #2B2C48;
     color: #FFF9F4;
-    line-height: 32px;
-    padding: 10px 370px;
+    line-height: 2rem;
+    padding: 0.625rem 23.125rem;
     outline: none;
-    margin: 10px 0 0 0;
+    margin: 0.625rem 0 0 0;
     cursor: pointer;
 }
 
@@ -573,6 +571,6 @@ header#header-fixed{
 }
 
 .community span{
-    margin:7px 0 0 0;
-    font-size: 16px;
+    margin:0.4375rem 0 0 0;
+    font-size: 1rem;
 }
