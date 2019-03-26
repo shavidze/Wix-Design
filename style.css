@@ -604,6 +604,10 @@ header#header-fixed {
     display: none;
 }
 
+.community form {
+    max-width: 100%;
+}
+
 @media only screen and (max-width:768px) {
     html {
         font-size: 0.5rem;
@@ -708,5 +712,23 @@ header#header-fixed {
     }
     .footer-info .info-link a {
         font-size: 1.7rem;
+    }
+    .community {
+        border: none;
+        padding: 0;
+        margin: 0;
+        max-width: auto;
+    }
+    .community h5 {
+        font-size: 2.25rem;
+    }
+    .mail input {
+        padding: 0.9375rem 13.75rem;
+    }
+    .community span {
+        font-size: 1.5rem;
+    }
+    .community .join {
+        padding: 0.625rem 22.125rem;
     }
 }
