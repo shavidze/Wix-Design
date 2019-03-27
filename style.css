@@ -655,8 +655,11 @@ header#header-fixed {
         color: #FFFAF5;
         cursor: pointer;
     }
-    #main-nav.clicked {
+    #main-nav {
         display: none;
+    }
+    #main-nav.clicked {
+        display: block;
         width: 0%;
     }
     #main-nav.clicked {
