@@ -37,7 +37,7 @@ header#header-fixed {
 }
 
 #main-nav {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     align-items: baseline;
     list-style-type: none;
@@ -61,6 +61,34 @@ header#header-fixed {
 }
 
 #main-nav li.active a {
+    color: #C8C6D5;
+}
+
+#main-nav.clicked {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    list-style-type: none;
+    padding: 3.125rem 0 2.8125rem 0;
+}
+
+#main-nav.clicked li {
+    display: inline-block;
+    padding: 0 1.5625rem;
+    box-sizing: border-box;
+}
+
+#main-nav.clicked li a {
+    display: inline-block;
+    color: #767592;
+    text-decoration: none;
+    padding: 0.625rem 1.5625rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9375rem;
+    box-sizing: border-box;
+}
+
+#main-nav.clicked li.active a {
     color: #C8C6D5;
 }
 
@@ -625,13 +653,17 @@ header#header-fixed {
         font-size: 1.875rem;
         box-sizing: border-box;
         color: #FFFAF5;
+        cursor: pointer;
     }
-    #main-nav {
-        display: none;
+    #main-nav.clicked {
+        display: block;
+        -webkit-transition: 250ms all;
+        transition: 250ms all;
     }
     header#header-fixed {
         clip-path: none;
         height: 110px;
+        position: relative;
     }
     .container section.content {
         clip-path: none;
@@ -730,5 +762,30 @@ header#header-fixed {
     }
     .community .join {
         padding: 0.625rem 22.125rem;
+    }
+    #main-nav.clicked li a {
+        font-size: 2rem;
+        color: #F9EDDF;
+    }
+    #main-nav.clicked {
+        position: absolute;
+        background: #302F51;
+        width: 70%;
+        top: 0px;
+        height: 600px;
+        left: 0;
+        transition: all 2.2s;
+    }
+    #main-nav.clicked ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+    #main-nav.clicked li {
+        margin-top: 34px;
+    }
+    #main-nav.clicked li.active a {
+        color: #F88D58;
     }
 }
