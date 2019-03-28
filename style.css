@@ -496,11 +496,18 @@ header#header-fixed {
 .footer .navigation {
     display: flex;
     justify-content: space-between;
-    height: 18.75rem;
+    height: auto;
     width: 100%;
     margin: auto;
-    padding: 1.875rem 0 1.875rem 0;
     box-sizing: border-box;
+}
+
+.footer .footer-menu {
+    margin: 1.25rem 0 1.25rem 0;
+}
+
+.footer .footer-info {
+    margin: 1.25rem 0 1.25rem 0;
 }
 
 .footer-menu ul {
