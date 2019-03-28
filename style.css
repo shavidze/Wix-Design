@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 81.25rem;
+    width: 1300px;
     max-width: 100%;
     margin: auto;
 }
@@ -39,7 +39,6 @@ header#header-fixed {
 #main-nav {
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
     list-style-type: none;
     padding: 3.125rem 0 2.8125rem 0;
 }
@@ -67,7 +66,6 @@ header#header-fixed {
 #main-nav.clicked {
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
     list-style-type: none;
     padding: 3.125rem 0 2.8125rem 0;
 }
@@ -92,12 +90,12 @@ header#header-fixed {
     color: #C8C6D5;
 }
 
-#logo-mobile.logo-basket {
+#logo-mobile.basket-icon {
     display: none;
     margin: 0 1.875rem 0 0;
 }
 
-.logo-basket {
+.basket-icon {
     width: 26px;
     height: 32px;
     max-width: 100%;
@@ -107,7 +105,7 @@ header#header-fixed {
     background: #FEFEFE;
 }
 
-.logo-basket .logo-basket-number {
+.basket-icon .basket-icon-number {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -155,7 +153,6 @@ header#header-fixed {
 
 .logo-container img {
     max-width: 100%;
-    ;
 }
 
 .container section.content {
@@ -190,7 +187,7 @@ header#header-fixed {
 
 .container section.content .button-black button {
     border: 0;
-    background-color: #2B2C48;
+    background: #2B2C48;
     color: #FFF9F4;
     line-height: 2rem;
     min-width: 0.75rem;
@@ -653,14 +650,13 @@ header#header-fixed {
         font-size: 1.875rem;
         box-sizing: border-box;
         color: #FFFAF5;
-        cursor: pointer;
     }
     #main-nav {
         display: none;
     }
     #main-nav.clicked {
         display: block;
-        width: 0%;
+        width: 0;
     }
     #main-nav.clicked {
         display: block;
@@ -691,10 +687,10 @@ header#header-fixed {
     .container section.content .button-black button {
         padding: 1.25rem 2.0625rem;
     }
-    #logo-mobile.logo-basket {
+    #logo-mobile.basket-icon {
         display: block;
     }
-    #logo-desktop.logo-basket {
+    #logo-desktop.basket-icon {
         display: none;
     }
     .logo {
