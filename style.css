@@ -659,16 +659,14 @@ header#header-fixed {
         color: #FFFAF5;
     }
     #main-nav {
-        display: none;
-    }
-    #main-nav.clicked {
-        display: block;
-        width: 0;
-    }
-    #main-nav.clicked {
-        display: block;
-        -webkit-transition: 250ms all;
-        transition: 250ms all;
+        background: #302F51;
+        width: 70%;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        left: 0;
+        transform: translateX(-160%);
+        transition: .5s;
     }
     header#header-fixed {
         clip-path: none;
@@ -779,23 +777,19 @@ header#header-fixed {
     }
     #main-nav.clicked {
         position: absolute;
-        background: #302F51;
-        width: 70%;
-        top: 0px;
-        height: 600px;
-        left: 0;
-        transition: all 2.2s;
+        transform: translateX(0%);
+        transition: .5s;
     }
-    #main-nav.clicked ul {
+    #main-nav ul {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
         width: 100%;
     }
-    #main-nav.clicked li {
+    #main-nav li {
         margin-top: 34px;
     }
-    #main-nav.clicked li.active a {
+    #main-nav li .active a {
         color: #F88D58;
     }
 }
